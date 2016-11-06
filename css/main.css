@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.wrap {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+.p1 {
+  height: 100%;
+  background: url(../img/bg.jpg);
+  background-size: 100% 100%;
+}
+.challenge {
+  width: 60%;
+  position: absolute;
+  margin-left: -100px;
+  left: 50%;
+  top: 15%;
+}
+.yingqu {
+  width: 80%;
+  position: absolute;
+  left: 10%;
+  top: 28%;
+}
+.start_game {
+  width: 40%;
+  position: absolute;
+  left: 29%;
+  top: 56%;
+}
+.shou {
+  width: 14%;
+  position: absolute;
+  left: 61%;
+  bottom: 26%;
+}
+.p1_btns_wrap {
+  width: 92%;
+  height: 11vh;
+  position: absolute;
+  bottom: 2.8%;
+  left: 4%;
+}
+.ranking,
+.activity_rule,
+.prize,
+.shiyong {
+  width: 21.5%;
+  height: 9vh;
+  position: absolute;
+  bottom: 4.2%;
+}
+.ranking {
+  left: 5%;
+}
+.activity_rule {
+  left: 27.2%;
+}
+.prize {
+  left: 49.4%;
+}
+.shiyong {
+  left: 71.8%;
+}
+.user_message {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 3;
+  left: 0;
+  top: 0;
+}
+.close {
+  width: 8%;
+  height: 30px;
+  position: absolute;
+  right: 12%;
+  top: 80px;
+}
+.user_date {
+  width: 75%;
+  height: 280px;
+  position: absolute;
+  left: 12%;
+  top: 21%;
+  background: url(../img/p1_from.png);
+  -webkit-background-size: 100% 100%;
+}
+#username,
+#userphone {
+  border: 1px red solid;
+  border-radius: 8px;
+  height: 30px;
+  width: 48%;
+  outline-style: none;
+  position: absolute;
+  z-index: 4;
+  left: 23%;
+  background: #f0bc1f;
+}
+#username {
+  top: 120px;
+}
+#userphone {
+  top: 160px;
+}
+#btn {
+  width: 40%;
+  height: 40px;
+  position: absolute;
+  top: 200px;
+  left: 27%;
+  z-index: 4;
+  background: url(../img/p1_sub.png);
+  -webkit-background-size: 100% 100%;
+  border-radius: 12px;
+  outline-style: none;
+}
+/*# sourceMappingURL=main.css.map */
